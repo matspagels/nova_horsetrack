@@ -389,16 +389,16 @@ elif selected == "Racetrack":
                                else:
                 
                                    col7.write("I guess you need a bit more credits for that!")
-                
+              
+                if user_balance == 0:
+                    st.header(f"Sorry {name}!")
+                    st.write(f"You don´t have any credits left, better luck next time!")  
                 
         if logged_in == False:
-
-                       st.header("Tell the chashier you´re here first and check in, Sir..") 
+        
+                       st.subheader("Tell the chashier you´re here first and check in, Sir..") 
     
-            if current_balance == 0:
 
-                st.header(f"Sorry {name}!")
-                st.write(f"You don´t have any credits left, better luck next time!")
                 
 elif selected == "Leaderboard":
         
