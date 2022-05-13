@@ -1,0 +1,8 @@
+id;username;password;balance;total_bet_value;wins;losses;total_bets;logged_in;nr_bets;nr_loss;nr_win;total bet amount;total money bet
+0;aada;awdawd;100.0;;;;;0;0.0;0.0;0.0;0.0;
+1;tobi;pimmel;100.0;;;;;0;0.0;0.0;0.0;0.0;
+2;matso;pimmel1;100.0;;;;;0;0.0;0.0;0.0;0.0;
+3;rief;schmeckle;1000.0;;;;;0;0.0;0.0;0.0;;0.0
+4;söro;pimmel1;941.0;;;;;0;25.0;2.0;0.0;;0.0
+5;sörender9te;pimmel2;528.0;;;;;0;7.0;5.0;1.0;;0.0
+6;cherif;gutepferd;812.0;;;;;1;12.0;8.0;4.0;;0.0
