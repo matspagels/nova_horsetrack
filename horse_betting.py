@@ -395,10 +395,10 @@ elif selected == "Racetrack":
 
                        st.header("Tell the chashier you´re here first and check in, Sir..") 
     
-                if current_balance == 0:
-    
-                    st.header(f"Sorry {name}!")
-                    st.write(f"You don´t have any credits left, better luck next time!")
+            if current_balance == 0:
+
+                st.header(f"Sorry {name}!")
+                st.write(f"You don´t have any credits left, better luck next time!")
                 
 elif selected == "Leaderboard":
         
