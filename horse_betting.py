@@ -393,7 +393,7 @@ elif selected == "Racetrack":
                 
                 if logged_in == False:
                 
-                               col7.write("Tell the chashier you´re here first and check in, Sir..") 
+                               st.header("Tell the chashier you´re here first and check in, Sir..") 
     
                 if current_balance == 0:
     
