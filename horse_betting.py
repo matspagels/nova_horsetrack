@@ -390,7 +390,7 @@ elif selected == "Racetrack":
                 
                                    col7.write("I guess you need a bit more credits for that!")
               
-                if user_balance == 0:
+                if current_balance == 0:
                     st.header(f"Sorry {name}!")
                     st.write(f"You don´t have any credits left, better luck next time!")  
                 
