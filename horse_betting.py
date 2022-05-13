@@ -4,6 +4,7 @@ import pandas as pd
 from helpers import *
 from streamlit_option_menu import option_menu
 import time
+from csv import DictWriter
 import requests
 import matplotlib
 import random
@@ -266,6 +267,7 @@ elif selected == "Racetrack":
                     for percent_complete in range(100):
                                 time.sleep(0.1)
                                 race_bar.progress(percent_complete + 1)
+                                
                     for percent_complete in range(100):
                                   time.sleep(0.1)
                                   race_bar.progress(percent_complete + progress1)  
