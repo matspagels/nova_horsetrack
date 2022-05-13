@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 import pandas as pd
-from functions import *
+from helpers import *
 from streamlit_option_menu import option_menu
 import time
 import requests
